@@ -1,5 +1,3 @@
-package algoritimos2.cap1;
-
 import java.util.Scanner;
 
 public class pti1 {
@@ -12,13 +10,13 @@ public class pti1 {
 			v[i] = leitor.nextInt();
 		}
 		System.out.println("");
-		System.out.println("Calcule a diferenÁa entre 2 vetores:");
+		System.out.println("Calcule a diferen√ßa entre 2 vetores:");
 		System.out.print("Vetor []: ");
 		int x = leitor.nextInt();
 		System.out.print("Vetor []: ");
 		int y = leitor.nextInt();
 
-		// calcular a diferenÁa entre os valores digitados pelo usu·rio
+		// calcular a diferen√ßa entre os valores digitados pelo usu√°rio
 		valorDiferenca(v[x], v[y]);
 		System.out.println("");
 
@@ -35,7 +33,7 @@ public class pti1 {
 		} else {
 			dif = y - x;
 		}
-		System.out.println("DiferenÁa: " + dif);
+		System.out.println("Diferen√ßa: " + dif);
 	}
 
 	public static boolean ordemCrescente(int[] v) {
